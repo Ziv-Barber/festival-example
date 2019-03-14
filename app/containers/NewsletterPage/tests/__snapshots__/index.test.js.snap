@@ -3,7 +3,7 @@
 exports[`<NewsletterPage /> should render 1`] = `
 <div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 PageLogo-sc-14ncvse-0 btRDuU"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 PageLogo-sc-14ncvse-0 ciqLjZ"
   >
     <h2
       class="MuiTypography-root-28 MuiTypography-h5-44 pageLogoText"
@@ -17,7 +17,7 @@ exports[`<NewsletterPage /> should render 1`] = `
     Be the first to know about upcoming editions, line-up and presale announcements. Sign up for our subscriber list - no worries, we don't spam you!
   </h2>
   <div
-    class="Subscribe-sc-4khb8h-0 kmxXOP"
+    class="Subscribe-sc-4khb8h-0 dhBZPF"
   >
     <div
       class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 TextInput-k6q9l7-0 jjzSuf"

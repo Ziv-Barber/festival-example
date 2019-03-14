@@ -40,8 +40,18 @@ const Subscribe = (props: SubscribePropsType) => {
   ) => (event: { target: { value: string, checked?: boolean } }) => {
     const recvValue = isCheckBox ? event.target.checked : event.target.value
 
-    if (recvValue.length < 1) {
-      setValue(recvValue)
+    if (typeof recvValue === 'string' && recvValue.length < 1) {
+      if (typeof recvValue === 'string' || typeof recvValue === 'boolean') {
+        setValue(recvValue)
+      } // Endif.
+
+      setErr(true)
+      return
+    } else if (recvValue === false) {
+      if (typeof recvValue === 'string' || typeof recvValue === 'boolean') {
+        setValue(recvValue)
+      } // Endif.
+
       setErr(true)
       return
     } // Endif.
@@ -49,12 +59,18 @@ const Subscribe = (props: SubscribePropsType) => {
     // In case that this is an email field - check if the email is valid:
     const emailValidator = /^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$/ // eslint-disable-line no-control-regex
     if (isValidateEmail && !emailValidator.test(String(email).toLowerCase())) {
-      setValue(recvValue)
+      if (typeof recvValue === 'string' || typeof recvValue === 'boolean') {
+        setValue(recvValue)
+      } // Endif.
+
       setErr(true)
       return
     } // Endif.
 
-    setValue(recvValue)
+    if (typeof recvValue === 'string' || typeof recvValue === 'boolean') {
+      setValue(recvValue)
+    } // Endif.
+
     setErr(false)
   }
 
@@ -64,21 +80,21 @@ const Subscribe = (props: SubscribePropsType) => {
         id="email"
         label="Email"
         value={email}
-        error={emailErr}
+        error={emailErr || undefined}
         onChange={handleChange(setEmail, setEmailErr, true)}
       />
       <TextInput
         id="first"
         label="First Name"
         value={firstName}
-        error={firstNameErr}
+        error={firstNameErr || undefined}
         onChange={handleChange(setFirstName, setFirstNameErr)}
       />
       <TextInput
         id="last"
         label="Last Name"
         value={lastName}
-        error={lastNameErr}
+        error={lastNameErr || undefined}
         onChange={handleChange(setLastName, setLastNameErr)}
       />
       <MuiFormControlLabel
@@ -87,7 +103,7 @@ const Subscribe = (props: SubscribePropsType) => {
             checked={!!accept}
             onChange={handleChange(setAccept, setAcceptErr, false, true)}
             value="accepted"
-            error={acceptErr}
+            error={acceptErr || undefined}
           />
         }
         label="Yes, I would like to receive the free newsletter per email. I can withdraw my consent at any time. I've read the Privacy Policy."

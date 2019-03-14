@@ -1,4 +1,5 @@
 module.exports = {
+  coverageReporters: ['json-summary', 'text', 'lcov'],
   collectCoverageFrom: [
     'app/**/*.{js,jsx}',
     '!app/**/*.test.{js,jsx}',
