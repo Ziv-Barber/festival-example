@@ -6,8 +6,8 @@ A demo fullstack app that you can use as a template for building a site for a fe
 [![coverage statements](./coverage/badge-statements.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
 [![coverage lines](./coverage/badge-lines.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
 [![coverage functions](./coverage/badge-functions.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
-[![dependencies](https://david-dm.org/Ziv-Barber/???project???.svg?style&#x3D;flat-square)](https://david-dm.org/Ziv-Barber/???project???)
-[![devDependencies](https://david-dm.org/Ziv-Barber/???project???/dev-status.svg?style&#x3D;flat-square)](https://david-dm.org/Ziv-Barber/???project???#info&#x3D;devDependencies)
+[![dependencies](https://david-dm.org/Ziv-Barber/festival-example.svg?style&#x3D;flat-square)](https://david-dm.org/Ziv-Barber/festival-example)
+[![devDependencies](https://david-dm.org/Ziv-Barber/festival-example/dev-status.svg?style&#x3D;flat-square)](https://david-dm.org/Ziv-Barber/festival-example#info&#x3D;devDependencies)
 [![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style&#x3D;flat-square)](https://github.com/prettier/prettier)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
@@ -21,10 +21,6 @@ A demo fullstack app that you can use as a template for building a site for a fe
 ## Getting Started: ##
 
 - [**Commands**](docs/general/commands.md): Getting the most out of this project.
-- [Testing](docs/testing): How to work with the built-in test harness.
-- [Styling](docs/css): How to work with the CSS tooling.
-- [Extending the app](docs/js): Supercharging your app with Routing, Redux, simple
-  asynchronicity helpers, etc.
 
 <a name="dependencies"></a>
 ## External dependencies: ##
@@ -54,7 +50,7 @@ This project is using the following awesome libraries/utilities/services:
 via Git:
 
 ```bash
-$ git clone git://github.com/Ziv-Barber/???project???.git
+$ git clone git://github.com/Ziv-Barber/festival-example.git
 ```
 
 <a name="code"></a>
