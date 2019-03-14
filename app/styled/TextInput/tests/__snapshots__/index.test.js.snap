@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextInput /> should match snapshort 1`] = `
+<div>
+  <div
+    class="MuiFormControl-root-1 MuiFormControl-marginNormal-2 TextInput-k6q9l7-0 jjzSuf"
+  >
+    <label
+      class="MuiFormLabel-root-16 MuiFormLabel-filled-20 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-shrink-12 MuiInputLabel-outlined-15"
+      data-shrink="true"
+      for="test_field"
+    >
+      Name
+    </label>
+    <div
+      class="MuiInputBase-root-36 MuiOutlinedInput-root-23 MuiInputBase-formControl-37"
+    >
+      <fieldset
+        aria-hidden="true"
+        class="MuiPrivateNotchedOutline-root-53 MuiOutlinedInput-notchedOutline-30"
+        style="padding-left: 8px;"
+      >
+        <legend
+          class="MuiPrivateNotchedOutline-legend-54"
+          style="width: 0px;"
+        >
+          <span>
+            ​
+          </span>
+        </legend>
+      </fieldset>
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input-46 MuiOutlinedInput-input-31"
+        id="test_field"
+        type="text"
+        value="This is a test"
+      />
+    </div>
+  </div>
+</div>
+`;

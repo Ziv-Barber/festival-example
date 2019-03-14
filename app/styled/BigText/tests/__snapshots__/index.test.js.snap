@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BigText /> should match snapshort 1`] = `
+<div>
+  <h2
+    class="MuiTypography-root-1 MuiTypography-h5-17 BigText-sc-1k80hov-0 kHslzd"
+  >
+    This is a text
+  </h2>
+</div>
+`;

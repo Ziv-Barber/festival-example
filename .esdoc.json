@@ -1,0 +1,63 @@
+{
+  "source": ".",
+  "destination": "./docs_api",
+  "includes": ["^(app|server)(\\\\|\\/).*\\.(js|jsx)$"],
+  "excludes": ["^(app|server)(\\\\|\\/).*(spec|Spec|test|Test)\\.(js|jsx)$"],
+  "plugins": [
+    {
+      "name": "esdoc-standard-plugin"
+    },
+    {
+      "name": "esdoc-flow-type-plugin",
+      "option": {
+        "enable": true
+      }
+    },
+    {
+      "name": "esdoc-lint-plugin",
+      "option": {
+        "enable": true
+      }
+    },
+    {
+      "name": "esdoc-integrate-manual-plugin",
+      "option": {
+        "index": "./docs/README.md",
+        "globalIndex": true,
+        "asset": "./docs",
+        "files": ["./Changelog.md"]
+      }
+    },
+    {
+      "name": "esdoc-brand-plugin",
+      "option": {
+        "description": "webapp",
+        "repository": "https://github.com/Ziv-Barber/webapp",
+        "site": "https://github.com/Ziv-Barber/webapp",
+        "image": "./logo.svg"
+      }
+    },
+    {
+      "name": "esdoc-ecmascript-proposal-plugin",
+      "option": {
+        "all": true
+      }
+    },
+    {
+      "name": "esdoc-react-plugin"
+    },
+    {
+      "name": "esdoc-jsx-plugin"
+    },
+    {
+      "name": "esdoc-integrate-test-plugin",
+      "option": {
+        "source": ".",
+        "interfaces": ["describe", "it", "context", "suite", "test"],
+        "includes": [
+          "^(app|server)(\\\\|\\/).*(spec|Spec|test|Test)\\.(js|jsx)$"
+        ]
+      }
+    }
+  ]
+}

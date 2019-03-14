@@ -1,0 +1,783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render 1`] = `
+<div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 kHNqbk"
+  >
+    <div
+      class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownRoot"
+    >
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          1
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Year
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          102
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Days
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          22
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Hours
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          0
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Min
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          0
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Sec
+          </span>
+        </p>
+      </div>
+    </div>
+    <span
+      class="productText"
+    >
+      This is the product description
+    </span>
+    <p
+      class="MuiTypography-root-28 MuiTypography-body2-36 downArrow productDownArrow"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root-64"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Lineup-lgfyxl-0 cTMzFz"
+    id="lineup"
+  >
+    <h3
+      class="MuiTypography-root-28 MuiTypography-h3-42 listHeader"
+      id="lineup"
+    >
+      Lineup
+    </h3>
+    <div
+      class="MuiGrid-container-73 MuiGrid-spacing-xs-8-95 MuiGrid-align-items-xs-center-81 MuiGrid-justify-xs-space-around-93 listGrid"
+    >
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="ActBox-ph7t7j-0 eosJBt"
+        >
+          <div
+            class="actBoxIn"
+          >
+            <p>
+              Jimi Hendrix
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="ActBox-ph7t7j-0 eosJBt"
+        >
+          <div
+            class="actBoxIn"
+          >
+            <p>
+              Michael Jackson
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="ActBox-ph7t7j-0 eosJBt"
+        >
+          <div
+            class="actBoxIn"
+          >
+            <p>
+              Kurt Cobain
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="ActBox-ph7t7j-0 eosJBt"
+        >
+          <div
+            class="actBoxIn"
+          >
+            <p>
+              Louis Armstrong
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="ActBox-ph7t7j-0 eosJBt"
+        >
+          <div
+            class="actBoxIn"
+          >
+            <p>
+              Elvis Presey
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="ActBox-ph7t7j-0 eosJBt"
+        >
+          <div
+            class="actBoxIn"
+          >
+            <p>
+              Freddie Mercury
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Tickets-q4qtd0-0 gpWJBE"
+    id="tickets"
+  >
+    <h3
+      class="MuiTypography-root-28 MuiTypography-h3-42 listHeader"
+      id="tickets"
+    >
+      Buy Tickets
+    </h3>
+    <div
+      class="MuiGrid-container-73 MuiGrid-spacing-xs-8-95 MuiGrid-align-items-xs-center-81 MuiGrid-justify-xs-space-around-93 listGrid"
+    >
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              First 1000 tickets
+               
+              <strong>
+                100€
+              </strong>
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <img
+              class="cardImage MuiCardActions-action-174"
+              src="IMAGE_MOCK"
+            />
+            <p
+              class="MuiTypography-root-28 MuiTypography-body1-37 cardDesc MuiCardActions-action-174"
+            >
+              Reducted price
+            </p>
+            <div
+              class="cardButton MuiCardActions-action-174"
+            >
+              <button
+                class="MuiButtonBase-root-201 MuiButton-root-175 MuiButton-contained-186 MuiButton-containedPrimary-187 MuiButton-raised-189 MuiButton-raisedPrimary-190"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-176"
+                >
+                  Buy now!
+                </span>
+                <span
+                  class="MuiTouchRipple-root-230"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              Normal tickets
+               
+              <strong>
+                150€
+              </strong>
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <img
+              class="cardImage MuiCardActions-action-174"
+              src="IMAGE_MOCK"
+            />
+            <p
+              class="MuiTypography-root-28 MuiTypography-body1-37 cardDesc MuiCardActions-action-174"
+            >
+              Normal tickets
+            </p>
+            <div
+              class="cardButton MuiCardActions-action-174"
+            >
+              <button
+                class="MuiButtonBase-root-201 MuiButton-root-175 MuiButton-contained-186 MuiButton-containedPrimary-187 MuiButton-raised-189 MuiButton-raisedPrimary-190"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-176"
+                >
+                  Buy now!
+                </span>
+                <span
+                  class="MuiTouchRipple-root-230"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              V.I.P. tickets
+               
+              <strong>
+                300€
+              </strong>
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <img
+              class="cardImage MuiCardActions-action-174"
+              src="IMAGE_MOCK"
+            />
+            <p
+              class="MuiTypography-root-28 MuiTypography-body1-37 cardDesc MuiCardActions-action-174"
+            >
+              V.I.P. tickets
+            </p>
+            <div
+              class="cardButton MuiCardActions-action-174"
+            >
+              <button
+                class="MuiButtonBase-root-201 MuiButton-root-175 MuiButton-contained-186 MuiButton-containedPrimary-187 MuiButton-raised-189 MuiButton-raisedPrimary-190"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-176"
+                >
+                  Buy now!
+                </span>
+                <span
+                  class="MuiTouchRipple-root-230"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Travel-nizlnn-0 JnxXn"
+    id="travel"
+  >
+    <h3
+      class="MuiTypography-root-28 MuiTypography-h3-42 listHeader"
+      id="travel"
+    >
+      Travel
+    </h3>
+    <div
+      class="MuiGrid-container-73 MuiGrid-spacing-xs-8-95 MuiGrid-align-items-xs-center-81 MuiGrid-justify-xs-space-around-93 listGrid"
+    >
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              By 
+              bus
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <div
+              class="MuiCardActions-action-174"
+            >
+              <img
+                class="cardImage"
+                src="IMAGE_MOCK"
+              />
+              <div
+                class="cardInfo"
+              >
+                <button
+                  class="MuiButtonBase-root-201 MuiFab-root-204 MuiFab-primary-206"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label-205"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-64"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-230"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              By 
+              train
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <div
+              class="MuiCardActions-action-174"
+            >
+              <img
+                class="cardImage"
+                src="IMAGE_MOCK"
+              />
+              <div
+                class="cardInfo"
+              >
+                <button
+                  class="MuiButtonBase-root-201 MuiFab-root-204 MuiFab-primary-206"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label-205"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-64"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-230"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              By 
+              plane
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <div
+              class="MuiCardActions-action-174"
+            >
+              <img
+                class="cardImage"
+                src="IMAGE_MOCK"
+              />
+              <div
+                class="cardInfo"
+              >
+                <button
+                  class="MuiButtonBase-root-201 MuiFab-root-204 MuiFab-primary-206"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label-205"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-64"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-230"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Partners-vzw52d-0 jniNqL"
+  >
+    <h3
+      class="MuiTypography-root-28 MuiTypography-h3-42 listHeader"
+    >
+      Partners
+    </h3>
+    <div
+      class="MuiGrid-container-73 MuiGrid-spacing-xs-8-95 MuiGrid-align-items-xs-center-81 MuiGrid-justify-xs-center-90 listGrid"
+    >
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <img
+              class="cardLogo MuiCardActions-action-174"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h5-44"
+            >
+              Tower Records
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <img
+              class="cardLogo MuiCardActions-action-174"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h5-44"
+            >
+              Circuit City
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-170 card"
+        >
+          <div
+            class="MuiCardActions-root-172 cardActions"
+          >
+            <img
+              class="cardLogo MuiCardActions-action-174"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <div
+            class="MuiCardContent-root-171 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h5-44"
+            >
+              Pontiac
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Footer-sc-15rsv6x-0 kQiiTI"
+  >
+    <div
+      class="MuiGrid-container-73 MuiGrid-spacing-xs-8-95 MuiGrid-align-items-xs-center-81 MuiGrid-justify-xs-center-90 listGrid"
+    >
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-2-103 MuiGrid-grid-sm-2-117 MuiGrid-grid-md-2-131 MuiGrid-grid-lg-1-144 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <a
+          class="link"
+          href="/newsletter"
+        >
+          <button
+            class="MuiButtonBase-root-201 MuiButton-root-175 MuiButton-text-177 MuiButton-flat-180"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-176"
+            >
+              Newsletter
+            </span>
+            <span
+              class="MuiTouchRipple-root-230"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-2-103 MuiGrid-grid-sm-2-117 MuiGrid-grid-md-2-131 MuiGrid-grid-lg-1-144 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <a
+          class="link"
+          href="/press"
+        >
+          <button
+            class="MuiButtonBase-root-201 MuiButton-root-175 MuiButton-text-177 MuiButton-flat-180"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-176"
+            >
+              Press
+            </span>
+            <span
+              class="MuiTouchRipple-root-230"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-2-103 MuiGrid-grid-sm-2-117 MuiGrid-grid-md-2-131 MuiGrid-grid-lg-1-144 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <a
+          class="link"
+          href="/privacy"
+        >
+          <button
+            class="MuiButtonBase-root-201 MuiButton-root-175 MuiButton-text-177 MuiButton-flat-180"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-176"
+            >
+              Privacy
+            </span>
+            <span
+              class="MuiTouchRipple-root-230"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-74 MuiGrid-grid-xs-2-103 MuiGrid-grid-sm-2-117 MuiGrid-grid-md-2-131 MuiGrid-grid-lg-1-144 MuiGrid-grid-xl-1-158 listItem"
+      >
+        <a
+          class="link"
+          href="/contact"
+        >
+          <button
+            class="MuiButtonBase-root-201 MuiButton-root-175 MuiButton-text-177 MuiButton-flat-180"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-176"
+            >
+              Contact
+            </span>
+            <span
+              class="MuiTouchRipple-root-230"
+            />
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Info /> should render 1`] = `
+<div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 kHNqbk"
+  >
+    <div
+      class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownRoot"
+    >
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          1
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Year
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          102
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Days
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          22
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Hours
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          0
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Min
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownBox"
+      >
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownValue"
+        >
+          0
+        </p>
+        <p
+          class="MuiTypography-root-28 MuiTypography-body2-36 countdownText"
+        >
+          <span>
+            Sec
+          </span>
+        </p>
+      </div>
+    </div>
+    <span
+      class="productText"
+    >
+      This is the product description
+    </span>
+    <p
+      class="MuiTypography-root-28 MuiTypography-body2-36 downArrow productDownArrow"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root-64"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+        />
+      </svg>
+    </p>
+  </div>
+</div>
+`;

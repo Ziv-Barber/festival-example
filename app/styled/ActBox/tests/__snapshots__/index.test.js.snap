@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActBox /> should render 1`] = `
+<div>
+  <div
+    class="ActBox-ph7t7j-0 eTWbgo"
+  >
+    <div
+      class="actBoxIn"
+    >
+      <p>
+        This is a text
+      </p>
+    </div>
+  </div>
+</div>
+`;

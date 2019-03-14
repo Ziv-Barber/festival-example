@@ -1,0 +1,6 @@
+{
+  "flow.useNPMPackagedFlow": true,
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "sourcegraph.javascript-typescript": false
+}

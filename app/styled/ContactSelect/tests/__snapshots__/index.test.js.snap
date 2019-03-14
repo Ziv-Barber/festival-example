@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactSelect /> should match snapshort 1`] = `
+<div>
+  <span>
+    This is a text
+  </span>
+</div>
+`;

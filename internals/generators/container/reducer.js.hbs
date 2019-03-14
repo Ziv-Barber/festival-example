@@ -1,0 +1,25 @@
+/*
+ * {{ properCase name }} reducer
+ */
+
+import { fromJS } from 'immutable'
+import { DEFAULT_ACTION } from './constants'
+
+export const initialState = fromJS({})
+
+/**
+ * {{ camelCase name }}
+ * @param {object} state - The current state.
+ * @param {object} action - The action to do.
+ * @returns Either a new state or the same state.
+ */
+function {{ camelCase name }}Reducer(state = initialState, action) {
+  switch (action.type) {
+    case DEFAULT_ACTION:
+      return state
+    default:
+      return state
+  } // End of switch.
+}
+
+export default {{ camelCase name }}Reducer

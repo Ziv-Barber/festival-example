@@ -1,0 +1,9 @@
+node_modules
+coverage
+flow-typed
+dist
+docs
+docs_api
+.DS_Store
+.vscode
+/internals/generators

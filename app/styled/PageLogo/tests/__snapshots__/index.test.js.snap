@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageLogo /> should match snapshort 1`] = `
+<div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 PageLogo-sc-14ncvse-0 crblvC"
+  >
+    <h2
+      class="MuiTypography-root-28 MuiTypography-h5-44 pageLogoText"
+    >
+      This is a text
+    </h2>
+  </div>
+</div>
+`;

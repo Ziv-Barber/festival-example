@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewsletterPage /> should render 1`] = `
+<div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 PageLogo-sc-14ncvse-0 btRDuU"
+  >
+    <h2
+      class="MuiTypography-root-28 MuiTypography-h5-44 pageLogoText"
+    >
+      Newsletter
+    </h2>
+  </div>
+  <h2
+    class="MuiTypography-root-28 MuiTypography-h5-44 BigText-sc-1k80hov-0 kHslzd"
+  >
+    Be the first to know about upcoming editions, line-up and presale announcements. Sign up for our subscriber list - no worries, we don't spam you!
+  </h2>
+  <div
+    class="Subscribe-sc-4khb8h-0 kmxXOP"
+  >
+    <div
+      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 TextInput-k6q9l7-0 jjzSuf"
+    >
+      <label
+        class="MuiFormLabel-root-79 MuiInputLabel-root-68 MuiInputLabel-formControl-73 MuiInputLabel-animated-76 MuiInputLabel-outlined-78"
+        data-shrink="false"
+        for="email"
+      >
+        Email
+      </label>
+      <div
+        class="MuiInputBase-root-99 MuiOutlinedInput-root-86 MuiInputBase-formControl-100"
+      >
+        <fieldset
+          aria-hidden="true"
+          class="MuiPrivateNotchedOutline-root-116 MuiOutlinedInput-notchedOutline-93"
+          style="padding-left: 8px;"
+        >
+          <legend
+            class="MuiPrivateNotchedOutline-legend-117"
+            style="width: 0.01px;"
+          >
+            <span>
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input-109 MuiOutlinedInput-input-94"
+          id="email"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 TextInput-k6q9l7-0 jjzSuf"
+    >
+      <label
+        class="MuiFormLabel-root-79 MuiInputLabel-root-68 MuiInputLabel-formControl-73 MuiInputLabel-animated-76 MuiInputLabel-outlined-78"
+        data-shrink="false"
+        for="first"
+      >
+        First Name
+      </label>
+      <div
+        class="MuiInputBase-root-99 MuiOutlinedInput-root-86 MuiInputBase-formControl-100"
+      >
+        <fieldset
+          aria-hidden="true"
+          class="MuiPrivateNotchedOutline-root-116 MuiOutlinedInput-notchedOutline-93"
+          style="padding-left: 8px;"
+        >
+          <legend
+            class="MuiPrivateNotchedOutline-legend-117"
+            style="width: 0.01px;"
+          >
+            <span>
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input-109 MuiOutlinedInput-input-94"
+          id="first"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 TextInput-k6q9l7-0 jjzSuf"
+    >
+      <label
+        class="MuiFormLabel-root-79 MuiInputLabel-root-68 MuiInputLabel-formControl-73 MuiInputLabel-animated-76 MuiInputLabel-outlined-78"
+        data-shrink="false"
+        for="last"
+      >
+        Last Name
+      </label>
+      <div
+        class="MuiInputBase-root-99 MuiOutlinedInput-root-86 MuiInputBase-formControl-100"
+      >
+        <fieldset
+          aria-hidden="true"
+          class="MuiPrivateNotchedOutline-root-116 MuiOutlinedInput-notchedOutline-93"
+          style="padding-left: 8px;"
+        >
+          <legend
+            class="MuiPrivateNotchedOutline-legend-117"
+            style="width: 0.01px;"
+          >
+            <span>
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input-109 MuiOutlinedInput-input-94"
+          id="last"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="MuiFormControlLabel-root-118"
+    >
+      <span
+        class="MuiButtonBase-root-140 MuiIconButton-root-134 MuiPrivateSwitchBase-root-130 MuiCheckbox-root-124 MuiCheckbox-colorSecondary-129"
+      >
+        <span
+          class="MuiIconButton-label-139"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-143"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+          <input
+            class="MuiPrivateSwitchBase-input-133"
+            data-indeterminate="false"
+            type="checkbox"
+            value="accepted"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root-275"
+        />
+      </span>
+      <span
+        class="MuiTypography-root-28 MuiTypography-body2-36 MuiFormControlLabel-label-123"
+      >
+        Yes, I would like to receive the free newsletter per email. I can withdraw my consent at any time. I've read the Privacy Policy.
+      </span>
+    </label>
+    <button
+      class="MuiButtonBase-root-140 MuiButtonBase-disabled-141 MuiButton-root-152 MuiButton-contained-163 MuiButton-containedPrimary-164 MuiButton-raised-166 MuiButton-raisedPrimary-167 MuiButton-disabled-172 subButton"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        class="MuiButton-label-153"
+      >
+        Subscribe
+      </span>
+    </button>
+  </div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Footer-sc-15rsv6x-0 kQiiTI"
+  >
+    <div
+      class="MuiGrid-container-178 MuiGrid-spacing-xs-8-200 MuiGrid-align-items-xs-center-186 MuiGrid-justify-xs-center-195 listGrid"
+    >
+      <div
+        class="MuiGrid-item-179 MuiGrid-grid-xs-2-208 MuiGrid-grid-sm-2-222 MuiGrid-grid-md-2-236 MuiGrid-grid-lg-1-249 MuiGrid-grid-xl-1-263 listItem"
+      >
+        <a
+          class="link"
+          href="/newsletter"
+        >
+          <button
+            class="MuiButtonBase-root-140 MuiButton-root-152 MuiButton-text-154 MuiButton-flat-157"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-153"
+            >
+              Newsletter
+            </span>
+            <span
+              class="MuiTouchRipple-root-275"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-179 MuiGrid-grid-xs-2-208 MuiGrid-grid-sm-2-222 MuiGrid-grid-md-2-236 MuiGrid-grid-lg-1-249 MuiGrid-grid-xl-1-263 listItem"
+      >
+        <a
+          class="link"
+          href="/press"
+        >
+          <button
+            class="MuiButtonBase-root-140 MuiButton-root-152 MuiButton-text-154 MuiButton-flat-157"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-153"
+            >
+              Press
+            </span>
+            <span
+              class="MuiTouchRipple-root-275"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-179 MuiGrid-grid-xs-2-208 MuiGrid-grid-sm-2-222 MuiGrid-grid-md-2-236 MuiGrid-grid-lg-1-249 MuiGrid-grid-xl-1-263 listItem"
+      >
+        <a
+          class="link"
+          href="/privacy"
+        >
+          <button
+            class="MuiButtonBase-root-140 MuiButton-root-152 MuiButton-text-154 MuiButton-flat-157"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-153"
+            >
+              Privacy
+            </span>
+            <span
+              class="MuiTouchRipple-root-275"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-179 MuiGrid-grid-xs-2-208 MuiGrid-grid-sm-2-222 MuiGrid-grid-md-2-236 MuiGrid-grid-lg-1-249 MuiGrid-grid-xl-1-263 listItem"
+      >
+        <a
+          class="link"
+          href="/contact"
+        >
+          <button
+            class="MuiButtonBase-root-140 MuiButton-root-152 MuiButton-text-154 MuiButton-flat-157"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-153"
+            >
+              Contact
+            </span>
+            <span
+              class="MuiTouchRipple-root-275"
+            />
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

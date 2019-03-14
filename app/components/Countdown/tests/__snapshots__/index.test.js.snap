@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Countdown /> should match snapshoot 1`] = `
+<WithStyles(Paper)
+  className="countdownRoot"
+>
+  <WithStyles(Paper)
+    className="countdownBox"
+  >
+    <WithStyles(Typography)
+      className="countdownValue"
+    >
+      0
+    </WithStyles(Typography)>
+    <WithStyles(Typography)
+      className="countdownText"
+    >
+      <FormattedMessage
+        defaultMessage="Days"
+        id="app.components.Countdown.days"
+        values={Object {}}
+      />
+    </WithStyles(Typography)>
+  </WithStyles(Paper)>
+  <WithStyles(Paper)
+    className="countdownBox"
+  >
+    <WithStyles(Typography)
+      className="countdownValue"
+    >
+      0
+    </WithStyles(Typography)>
+    <WithStyles(Typography)
+      className="countdownText"
+    >
+      <FormattedMessage
+        defaultMessage="Hours"
+        id="app.components.Countdown.hours"
+        values={Object {}}
+      />
+    </WithStyles(Typography)>
+  </WithStyles(Paper)>
+  <WithStyles(Paper)
+    className="countdownBox"
+  >
+    <WithStyles(Typography)
+      className="countdownValue"
+    >
+      0
+    </WithStyles(Typography)>
+    <WithStyles(Typography)
+      className="countdownText"
+    >
+      <FormattedMessage
+        defaultMessage="Min"
+        id="app.components.Countdown.min"
+        values={Object {}}
+      />
+    </WithStyles(Typography)>
+  </WithStyles(Paper)>
+  <WithStyles(Paper)
+    className="countdownBox"
+  >
+    <WithStyles(Typography)
+      className="countdownValue"
+    >
+      0
+    </WithStyles(Typography)>
+    <WithStyles(Typography)
+      className="countdownText"
+    >
+      <FormattedMessage
+        defaultMessage="Sec"
+        id="app.components.Countdown.sec"
+        values={Object {}}
+      />
+    </WithStyles(Typography)>
+  </WithStyles(Paper)>
+</WithStyles(Paper)>
+`;
