@@ -6,7 +6,7 @@ import React from 'react' // eslint-disable-line no-unused-vars
 import PageLogo from '../../styled/PageLogo'
 import Footer from '../../styled/Footer'
 
-import pageBack from '../../images/press.png'
+import pageBack from '../../images/press.jpg'
 
 /*
  * PressPage
