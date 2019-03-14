@@ -40,6 +40,7 @@ This project is using the following awesome libraries/utilities/services:
 - [Prettier](https://prettier.io/)
 - [react](https://reactjs.org/)
 - [react-hot-loader](https://github.com/gaearon/react-hot-loader)
+- [react-testing-library](https://github.com/kentcdodds/react-testing-library)
 - [redux](https://redux.js.org/)
 - [semantic-release](https://github.com/semantic-release/semantic-release)
 - [webpack](https://webpack.js.org/)
