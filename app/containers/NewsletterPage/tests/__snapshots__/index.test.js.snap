@@ -12,12 +12,12 @@ exports[`<NewsletterPage /> should render 1`] = `
     </h2>
   </div>
   <h2
-    class="MuiTypography-root-28 MuiTypography-h5-44 BigText-sc-1k80hov-0 kHslzd"
+    class="MuiTypography-root-28 MuiTypography-h5-44 BigText-sc-1k80hov-0 odFhs"
   >
     Be the first to know about upcoming editions, line-up and presale announcements. Sign up for our subscriber list - no worries, we don't spam you!
   </h2>
   <div
-    class="Subscribe-sc-4khb8h-0 dhBZPF"
+    class="Subscribe-sc-4khb8h-0 iQhYBm"
   >
     <div
       class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 TextInput-k6q9l7-0 jjzSuf"

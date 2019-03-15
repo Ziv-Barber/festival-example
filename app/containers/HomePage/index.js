@@ -43,7 +43,7 @@ export default class HomePage extends React.PureComponent<HomePagePropsType> {
   render() {
     return (
       <React.Fragment>
-        <Info />
+        <Info id="info" />
         <Lineup id="lineup" />
         <Tickets id="tickets" />
         <Travel id="travel" />
@@ -56,7 +56,7 @@ export default class HomePage extends React.PureComponent<HomePagePropsType> {
   scrollToElement() {
     const routeElement = this.props.match.params.id
     if (routeElement) {
-      doScrolling(`#${routeElement}`, 200)
+      doScrolling(`#${routeElement}`, 200, -64)
     } // Endif.
   }
 

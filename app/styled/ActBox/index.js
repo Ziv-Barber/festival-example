@@ -6,16 +6,6 @@ import styled from 'styled-components'
 // Our types:
 import type { ActBoxPropsType } from './index.types'
 
-// import IconButton from '@material-ui/core/IconButton'
-// import InfoIcon from '@material-ui/icons/Info'
-// import Dialog from '@material-ui/core/Dialog'
-// import DialogTitle from '@material-ui/core/DialogTitle'
-// <IconButton className={classes.icon}>
-// clear
-// forward
-// <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" {...other}>
-// <DialogTitle id="simple-dialog-title">Set backup account</DialogTitle>
-
 /**
  * Control to display a single act.
  *
@@ -72,8 +62,8 @@ export default styled(ActBox)`
   & .actBoxIn p {
     position: absolute;
     top: -50px;
-    color: #000;
-    background: #ff0;
+    color: #fff;
+    background: #0047b3;
     border: 1px solid #fff;
   }
 

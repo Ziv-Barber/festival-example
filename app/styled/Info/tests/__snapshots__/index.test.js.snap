@@ -3,7 +3,7 @@
 exports[`<Info /> should render 1`] = `
 <div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 kHNqbk"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 eTYuBU"
   >
     <div
       class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownRoot"
@@ -89,11 +89,15 @@ exports[`<Info /> should render 1`] = `
         </p>
       </div>
     </div>
-    <span
-      class="productText"
+    <div
+      class="productTextArea"
     >
-      This is the product description
-    </span>
+      <h2
+        class="MuiTypography-root-28 MuiTypography-h6-45 productText"
+      >
+        Welcome to the biggest festival in Heaven! All the biggest acts of all time!
+      </h2>
+    </div>
     <p
       class="MuiTypography-root-28 MuiTypography-body2-36 downArrow productDownArrow"
     >

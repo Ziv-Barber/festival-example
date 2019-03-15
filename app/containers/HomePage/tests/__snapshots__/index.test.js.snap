@@ -3,7 +3,8 @@
 exports[`<HomePage /> should render 1`] = `
 <div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 kHNqbk"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 eTYuBU"
+    id="info"
   >
     <div
       class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownRoot"
@@ -89,11 +90,15 @@ exports[`<HomePage /> should render 1`] = `
         </p>
       </div>
     </div>
-    <span
-      class="productText"
+    <div
+      class="productTextArea"
     >
-      This is the product description
-    </span>
+      <h2
+        class="MuiTypography-root-28 MuiTypography-h6-45 productText"
+      >
+        Welcome to the biggest festival in Heaven! All the biggest acts of all time!
+      </h2>
+    </div>
     <p
       class="MuiTypography-root-28 MuiTypography-body2-36 downArrow productDownArrow"
     >
@@ -115,7 +120,7 @@ exports[`<HomePage /> should render 1`] = `
     </p>
   </div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 Lineup-lgfyxl-0 cTMzFz"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Lineup-lgfyxl-0 eBwsgH"
     id="lineup"
   >
     <h3
@@ -131,7 +136,7 @@ exports[`<HomePage /> should render 1`] = `
         class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
       >
         <div
-          class="ActBox-ph7t7j-0 eosJBt"
+          class="ActBox-ph7t7j-0 bLmnMz"
         >
           <div
             class="actBoxIn"
@@ -146,7 +151,7 @@ exports[`<HomePage /> should render 1`] = `
         class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
       >
         <div
-          class="ActBox-ph7t7j-0 eosJBt"
+          class="ActBox-ph7t7j-0 bLmnMz"
         >
           <div
             class="actBoxIn"
@@ -161,7 +166,7 @@ exports[`<HomePage /> should render 1`] = `
         class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
       >
         <div
-          class="ActBox-ph7t7j-0 eosJBt"
+          class="ActBox-ph7t7j-0 bLmnMz"
         >
           <div
             class="actBoxIn"
@@ -176,7 +181,7 @@ exports[`<HomePage /> should render 1`] = `
         class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
       >
         <div
-          class="ActBox-ph7t7j-0 eosJBt"
+          class="ActBox-ph7t7j-0 bLmnMz"
         >
           <div
             class="actBoxIn"
@@ -191,7 +196,7 @@ exports[`<HomePage /> should render 1`] = `
         class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
       >
         <div
-          class="ActBox-ph7t7j-0 eosJBt"
+          class="ActBox-ph7t7j-0 bLmnMz"
         >
           <div
             class="actBoxIn"
@@ -206,7 +211,7 @@ exports[`<HomePage /> should render 1`] = `
         class="MuiGrid-item-74 MuiGrid-grid-xs-12-113 MuiGrid-grid-sm-4-119 MuiGrid-grid-md-3-132 MuiGrid-grid-lg-2-145 MuiGrid-grid-xl-1-158 listItem"
       >
         <div
-          class="ActBox-ph7t7j-0 eosJBt"
+          class="ActBox-ph7t7j-0 bLmnMz"
         >
           <div
             class="actBoxIn"

@@ -18,7 +18,6 @@ import ContactPage from '../../containers/ContactPage/Loadable'
 import NotFoundPage from '../../containers/NotFoundPage/Loadable'
 // import SideRibbon from '../../components/SideRibbon'
 import styled from 'styled-components'
-// import GlobalStyle from '../../global-styles'
 import withRoot from '../../utils/withRoot'
 
 const StyledMain = styled.main`

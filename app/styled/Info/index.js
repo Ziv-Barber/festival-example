@@ -25,11 +25,20 @@ export default styled(ProductInfo).attrs({
   color: #fff;
 
   & .productText {
-    color: #ddd;
+    background-color: #001433;
+    opacity: 0.8;
   }
 
-  & .arrow {
-    color: #000;
+  & .productText {
+    padding: ${(props) => props.theme.spacing.unit * 2}px !important;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    max-width: 50vw;
+    color: #fff;
+  }
+
+  & .productDownArrow {
+    color: #001433 !important;
   }
 
   & .countdownRoot {

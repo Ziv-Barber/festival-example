@@ -25,8 +25,9 @@ const BigText = (props: BigTextPropsType) => (
 )
 
 export default styled(BigText)`
-  margin: 0 !important;
+  margin: ${(props) => props.theme.spacing.unit}px !important;
   padding: ${(props) => props.theme.spacing.unit * 2}px !important;
+  border-radius: ${(props) => props.theme.spacing.unit * 2}px !important;
   background: ${(props) => props.theme.palette.primary.main};
   color: #fff;
 `
