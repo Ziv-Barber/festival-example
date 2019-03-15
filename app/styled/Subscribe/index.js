@@ -130,8 +130,9 @@ const Subscribe = (props: SubscribePropsType) => {
 
 export default styled(Subscribe)`
   padding: ${(props) => props.theme.spacing.unit}px !important;
+  padding-top: 0 !important;
   padding-bottom: ${(props) => props.theme.spacing.unit * 3}px !important;
-  background: ${(props) => props.theme.palette.secondary.dark};
+  background: ${(props) => props.theme.palette.background.default};
   display: flex;
   justify-content: center;
   align-items: stretch;

@@ -1,6 +1,7 @@
 // @flow
 
 export type ProductInfoPropsType = {
+  id?: string,
   className?: any,
   date?: Date,
   text?: string,

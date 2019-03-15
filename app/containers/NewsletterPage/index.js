@@ -33,10 +33,5 @@ export default class NewsletterPage extends React.PureComponent<{}> {
         <Footer />
       </React.Fragment>
     )
-    // Email
-    // First name
-    // Last name
-    // Yes, I would like to receive the free newsletter per email. I can withdraw my consent at any time. I've read the Privacy Policy
-    // Subscribe
   }
 }

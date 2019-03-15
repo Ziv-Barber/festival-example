@@ -9,15 +9,21 @@ const getElementY = (query) => {
   )
 }
 
-const doScrolling = (element, duration) => {
+const doScrolling = (element, duration, fixVal = 0) => {
   var startingY = window.pageYOffset
-  var elementY = getElementY(element)
+  var elementY = getElementY(element) + fixVal
   // If element is close to page's bottom then window will scroll only to some position above the element.
   var targetY =
     document.body.scrollHeight - elementY < window.innerHeight
       ? document.body.scrollHeight - window.innerHeight
       : elementY
+
+  if (targetY < 0) {
+    targetY = 0
+  } // Endif.
+
   var diff = targetY - startingY
+
   // Easing function: easeInOutCubic
   // From: https://gist.github.com/gre/1650294
   var easing = function(t) {

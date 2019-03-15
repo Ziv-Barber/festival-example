@@ -5,8 +5,6 @@ import React from 'react' // eslint-disable-line no-unused-vars
 import { withRouter } from 'react-router-dom'
 import styled from 'styled-components'
 
-// Other components that we need:
-
 // Content that we need:
 import mainNavLinks from '../../content/navigator'
 
@@ -20,6 +18,8 @@ import MuiMenu from '@material-ui/core/Menu'
 import MuiMenuItem from '@material-ui/core/MenuItem'
 import MuiIconButton from '@material-ui/core/IconButton'
 
+import wings from './wings.png'
+
 // Our types:
 import type { NavigatorBarPropsType } from './index.types'
 
@@ -32,7 +32,6 @@ const NavigatorBar = (props: NavigatorBarPropsType) => {
   const { className } = props
 
   const handleRoute = (routePath: string) => () => {
-    // console.log(routePath)
     props.history.push(routePath)
   }
 
@@ -45,8 +44,8 @@ const NavigatorBar = (props: NavigatorBarPropsType) => {
   }
 
   const handleMenuRoute = (routePath: string) => () => {
+    handleRoute(routePath)()
     handleMenuClose()
-    handleRoute(routePath)
   }
 
   return (
@@ -57,9 +56,9 @@ const NavigatorBar = (props: NavigatorBarPropsType) => {
             variant="h6"
             color="inherit"
             noWrap
-            onClick={handleRoute('/')}
+            onClick={handleRoute('/main/info')}
           >
-            Festival
+            HeavenFest
           </MuiTypography>
         </div>
         {mainNavLinks.map((value) => (
@@ -109,7 +108,6 @@ const RouteNavigatorBar = withRouter(NavigatorBar)
 
 // $FlowFixMe
 export default styled(RouteNavigatorBar)`
-  // background: #0047b3 !important;
   border-bottom: 1px #002966 solid;
   opacity: 0.9;
 
@@ -121,8 +119,26 @@ export default styled(RouteNavigatorBar)`
     display: flex;
   }
 
+  & .navbarTitle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 32px;
+    background-image: url(${wings});
+    background-repeat: no-repeat;
+    background-size: 100px 32px;
+  }
+
   & .navbarTitle {
+    position: relative;
+    cursor: pointer;
+    padding-left: 108px;
     flex: 1;
+    z-index: 1190;
+    color: #eee0ff;
+    text-shadow: 2px 2px #4d94ff;
   }
 
   & .navbarButton {

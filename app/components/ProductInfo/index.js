@@ -3,7 +3,7 @@
 import * as React from 'react' // eslint-disable-line no-unused-vars
 import Countdown from '../../components/Countdown'
 import MuiPaper from '@material-ui/core/Paper'
-import Typography from '@material-ui/core/Typography'
+import MuiTypography from '@material-ui/core/Typography'
 import ArrowDownward from '@material-ui/icons/ArrowDownward'
 import styled from 'styled-components'
 import withConditional from '../../utils/withConditional'
@@ -20,23 +20,30 @@ const ProductInfo = (props: ProductInfoPropsType) => {
   const ProductTextC = (props: {
     className: string,
     children?: React.Node
-  }) => <span className={props.className}>{props.children}</span>
+  }) => (
+    <MuiTypography variant="h6" component="h2" className={props.className}>
+      {props.children}
+    </MuiTypography>
+  )
   const ProductText = withConditional(ProductTextC)
   const ConditionalCountdown = withConditional(Countdown)
 
   return (
     <MuiPaper
+      id={props.id}
       elevation={0}
       square={true}
       className={className || 'productInfo'}
     >
       <ConditionalCountdown condition={props.date} date={props.date} />
-      <ProductText condition={props.text} className="productText">
-        {props.text}
-      </ProductText>
-      <Typography className="downArrow productDownArrow">
+      <div className="productTextArea">
+        <ProductText condition={props.text} className="productText">
+          {props.text}
+        </ProductText>
+      </div>
+      <MuiTypography className="downArrow productDownArrow">
         {props.arrow || <ArrowDownward />}
-      </Typography>
+      </MuiTypography>
     </MuiPaper>
   )
 }
@@ -49,15 +56,20 @@ const StyledProductInfo = styled(ProductInfo)`
   flex-direction: column;
   justify-content: space-between;
 
-  .productText {
+  & .productTextArea {
+    display: flex;
+    justify-content: center;
+  }
+
+  & .productText {
     text-align: center;
   }
 
-  .downArrow {
+  & .downArrow {
     text-align: center;
   }
 
-  .countdownRoot {
+  & .countdownRoot {
     display: flex;
     justify-content: center;
     background-color: transparent;
