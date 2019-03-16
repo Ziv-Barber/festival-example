@@ -3,7 +3,7 @@
 exports[`<HomePage /> should render 1`] = `
 <div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 eTYuBU"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 kfMkbU"
     id="info"
   >
     <div
@@ -120,7 +120,7 @@ exports[`<HomePage /> should render 1`] = `
     </p>
   </div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 Lineup-lgfyxl-0 eBwsgH"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Lineup-lgfyxl-0 inpeUA"
     id="lineup"
   >
     <h3

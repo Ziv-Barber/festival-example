@@ -22,16 +22,31 @@ export default styled(ProductInfo).attrs({
 })`
   min-height: 80vh;
   background-image: url(${BackImage});
+  background-attachment: fixed;
   color: #fff;
+  position: relative;
+  z-index: 0;
+
+  & ::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 96px solid #cce0ff;
+    border-left: 100vw solid transparent;
+    z-index: 1;
+  }
 
   & .productText {
     background-color: #001433;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   & .productText {
     padding: ${(props) => props.theme.spacing.unit * 2}px !important;
-    border: 1px solid #fff;
+    // border: 1px solid #fff;
     border-radius: 8px;
     max-width: 50vw;
     color: #fff;
@@ -39,6 +54,7 @@ export default styled(ProductInfo).attrs({
 
   & .productDownArrow {
     color: #001433 !important;
+    z-index: 2;
   }
 
   & .countdownRoot {

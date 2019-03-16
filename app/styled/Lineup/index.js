@@ -44,14 +44,13 @@ export default styled(ItemsList).attrs({
   }
 })`
   margin: 0 !important;
-  // margin-top: -64px !important;
   padding: ${(props) => props.theme.spacing.unit}px !important;
-  // padding-top: ${(props) => props.theme.spacing.unit + 64}px !important;
   width: 100% !important;
   background: linear-gradient(to bottom, #cce0ff, #99c2ff);
   color: white;
 
   & .listHeader {
+    position: relative;
     padding: ${(props) => props.theme.spacing.unit}px !important;
     width: 100% !important;
     text-align: center;
