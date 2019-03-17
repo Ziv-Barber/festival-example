@@ -37,7 +37,7 @@ const TicketsBox = (props: TicketsBoxPropsType) => (
       </MuiTypography>
       <div className="cardButton">
         <MuiButton variant="contained" color="primary">
-          Buy now!
+          <a href="https://www.myticket.de/">Buy now!</a>
         </MuiButton>
       </div>
     </MuiCardActions>

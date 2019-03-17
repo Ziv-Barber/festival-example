@@ -1,6 +1,7 @@
 // @flow
 
 import React from 'react' // eslint-disable-line no-unused-vars
+import { withRouter } from 'react-router'
 
 // Other components that we need:
 import PageLogo from '../../styled/PageLogo'
@@ -20,7 +21,15 @@ import pageBack from '../../images/privacy.jpg'
  * the linting exception.
  */
 /* eslint-disable react/prefer-stateless-function */
-export default class PrivacyPage extends React.PureComponent<{}> {
+class PrivacyPage extends React.PureComponent<{
+  location: { pathname: string }
+}> {
+  componentDidUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      window.scrollTo(0, 0)
+    }
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -31,3 +40,6 @@ export default class PrivacyPage extends React.PureComponent<{}> {
     )
   }
 }
+
+// $FlowFixMe
+export default withRouter(PrivacyPage)
