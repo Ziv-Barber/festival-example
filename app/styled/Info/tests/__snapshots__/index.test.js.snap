@@ -3,7 +3,7 @@
 exports[`<Info /> should render 1`] = `
 <div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 eTYuBU"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 kfMkbU"
   >
     <div
       class="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 countdownRoot"

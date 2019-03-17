@@ -3,7 +3,7 @@
 exports[`<PressPage /> should render 1`] = `
 <div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 PageLogo-sc-14ncvse-0 ciqLjZ"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 PageLogo-sc-14ncvse-0 idXUci"
   >
     <h2
       class="MuiTypography-root-28 MuiTypography-h5-44 pageLogoText"

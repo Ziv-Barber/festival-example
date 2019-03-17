@@ -78,6 +78,7 @@ const Subscribe = (props: SubscribePropsType) => {
     <div className={props.className}>
       <TextInput
         id="email"
+        className="textInput"
         label="Email"
         value={email}
         error={emailErr || undefined}
@@ -85,6 +86,7 @@ const Subscribe = (props: SubscribePropsType) => {
       />
       <TextInput
         id="first"
+        className="textInput"
         label="First Name"
         value={firstName}
         error={firstNameErr || undefined}
@@ -92,6 +94,7 @@ const Subscribe = (props: SubscribePropsType) => {
       />
       <TextInput
         id="last"
+        className="textInput"
         label="Last Name"
         value={lastName}
         error={lastNameErr || undefined}
@@ -135,11 +138,20 @@ export default styled(Subscribe)`
   background: ${(props) => props.theme.palette.background.default};
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex-direction: column;
 
+  & .textInput {
+    width: 100%;
+  }
+
+  @media (min-width: 600px) {
+    & .textInput {
+      width: 580px;
+    }
+  }
+
   & .subButton {
-    align-self: center;
   }
 `
 

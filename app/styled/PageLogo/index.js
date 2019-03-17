@@ -41,7 +41,8 @@ export default styled(PageLogo)`
   & .pageLogoText {
     padding: ${(props) => props.theme.spacing.unit * 4}px !important;
     background: ${(props) => props.theme.palette.secondary.main};
-    border: 1px solid #fff;
+    border-radius: ${(props) => props.theme.spacing.unit * 2}px;
+    // border: 1px solid ${(props) => props.theme.palette.background.default};
   }
 `
 

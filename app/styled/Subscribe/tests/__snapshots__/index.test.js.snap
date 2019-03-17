@@ -3,10 +3,10 @@
 exports[`<Subscribe /> should match snapshort 1`] = `
 <div>
   <div
-    class="Subscribe-sc-4khb8h-0 iQhYBm"
+    class="Subscribe-sc-4khb8h-0 hCaqfs"
   >
     <div
-      class="MuiFormControl-root-1 MuiFormControl-marginNormal-2 TextInput-k6q9l7-0 jjzSuf"
+      class="MuiFormControl-root-1 MuiFormControl-marginNormal-2 textInput TextInput-k6q9l7-0 jjzSuf"
     >
       <label
         class="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-outlined-15"
@@ -42,7 +42,7 @@ exports[`<Subscribe /> should match snapshort 1`] = `
       </div>
     </div>
     <div
-      class="MuiFormControl-root-1 MuiFormControl-marginNormal-2 TextInput-k6q9l7-0 jjzSuf"
+      class="MuiFormControl-root-1 MuiFormControl-marginNormal-2 textInput TextInput-k6q9l7-0 jjzSuf"
     >
       <label
         class="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-outlined-15"
@@ -78,7 +78,7 @@ exports[`<Subscribe /> should match snapshort 1`] = `
       </div>
     </div>
     <div
-      class="MuiFormControl-root-1 MuiFormControl-marginNormal-2 TextInput-k6q9l7-0 jjzSuf"
+      class="MuiFormControl-root-1 MuiFormControl-marginNormal-2 textInput TextInput-k6q9l7-0 jjzSuf"
     >
       <label
         class="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-outlined-15"

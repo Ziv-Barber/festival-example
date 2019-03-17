@@ -3,7 +3,7 @@
 exports[`<HomePage /> should render 1`] = `
 <div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 eTYuBU"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 ProductInfo__StyledProductInfo-sc-16oieff-0 Info-aeukc1-0 kfMkbU"
     id="info"
   >
     <div
@@ -120,7 +120,7 @@ exports[`<HomePage /> should render 1`] = `
     </p>
   </div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 Lineup-lgfyxl-0 eBwsgH"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Lineup-lgfyxl-0 inpeUA"
     id="lineup"
   >
     <h3
@@ -225,7 +225,7 @@ exports[`<HomePage /> should render 1`] = `
     </div>
   </div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 Tickets-q4qtd0-0 gpWJBE"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Tickets-q4qtd0-0 fyrttE"
     id="tickets"
   >
     <h3
@@ -279,7 +279,11 @@ exports[`<HomePage /> should render 1`] = `
                 <span
                   class="MuiButton-label-176"
                 >
-                  Buy now!
+                  <a
+                    href="https://www.myticket.de/"
+                  >
+                    Buy now!
+                  </a>
                 </span>
                 <span
                   class="MuiTouchRipple-root-230"
@@ -331,7 +335,11 @@ exports[`<HomePage /> should render 1`] = `
                 <span
                   class="MuiButton-label-176"
                 >
-                  Buy now!
+                  <a
+                    href="https://www.myticket.de/"
+                  >
+                    Buy now!
+                  </a>
                 </span>
                 <span
                   class="MuiTouchRipple-root-230"
@@ -383,7 +391,11 @@ exports[`<HomePage /> should render 1`] = `
                 <span
                   class="MuiButton-label-176"
                 >
-                  Buy now!
+                  <a
+                    href="https://www.myticket.de/"
+                  >
+                    Buy now!
+                  </a>
                 </span>
                 <span
                   class="MuiTouchRipple-root-230"

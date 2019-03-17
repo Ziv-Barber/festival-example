@@ -111,6 +111,11 @@ export default styled(ItemsList).attrs({
     padding-bottom: ${(props) => props.theme.spacing.unit * 2}px !important;
   }
 
+  & .cardButton a {
+    color: #fff;
+    text-decoration: none;
+  }
+
   & h2 {
     color: #fff !important;
   }

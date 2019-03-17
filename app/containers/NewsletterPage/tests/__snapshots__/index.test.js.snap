@@ -3,7 +3,7 @@
 exports[`<NewsletterPage /> should render 1`] = `
 <div>
   <div
-    class="MuiPaper-root-1 MuiPaper-elevation0-3 PageLogo-sc-14ncvse-0 ciqLjZ"
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 PageLogo-sc-14ncvse-0 idXUci"
   >
     <h2
       class="MuiTypography-root-28 MuiTypography-h5-44 pageLogoText"
@@ -12,15 +12,15 @@ exports[`<NewsletterPage /> should render 1`] = `
     </h2>
   </div>
   <h2
-    class="MuiTypography-root-28 MuiTypography-h5-44 BigText-sc-1k80hov-0 odFhs"
+    class="MuiTypography-root-28 MuiTypography-h5-44 BigText-sc-1k80hov-0 gwRgJq"
   >
     Be the first to know about upcoming editions, line-up and presale announcements. Sign up for our subscriber list - no worries, we don't spam you!
   </h2>
   <div
-    class="Subscribe-sc-4khb8h-0 iQhYBm"
+    class="Subscribe-sc-4khb8h-0 hCaqfs"
   >
     <div
-      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 TextInput-k6q9l7-0 jjzSuf"
+      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 textInput TextInput-k6q9l7-0 jjzSuf"
     >
       <label
         class="MuiFormLabel-root-79 MuiInputLabel-root-68 MuiInputLabel-formControl-73 MuiInputLabel-animated-76 MuiInputLabel-outlined-78"
@@ -56,7 +56,7 @@ exports[`<NewsletterPage /> should render 1`] = `
       </div>
     </div>
     <div
-      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 TextInput-k6q9l7-0 jjzSuf"
+      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 textInput TextInput-k6q9l7-0 jjzSuf"
     >
       <label
         class="MuiFormLabel-root-79 MuiInputLabel-root-68 MuiInputLabel-formControl-73 MuiInputLabel-animated-76 MuiInputLabel-outlined-78"
@@ -92,7 +92,7 @@ exports[`<NewsletterPage /> should render 1`] = `
       </div>
     </div>
     <div
-      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 TextInput-k6q9l7-0 jjzSuf"
+      class="MuiFormControl-root-64 MuiFormControl-marginNormal-65 textInput TextInput-k6q9l7-0 jjzSuf"
     >
       <label
         class="MuiFormLabel-root-79 MuiInputLabel-root-68 MuiInputLabel-formControl-73 MuiInputLabel-animated-76 MuiInputLabel-outlined-78"
