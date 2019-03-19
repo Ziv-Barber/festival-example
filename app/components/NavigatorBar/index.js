@@ -48,6 +48,8 @@ const NavigatorBar = (props: NavigatorBarPropsType) => {
     handleMenuClose()
   }
 
+  const Menu = props.menuComp || MuiMenu
+
   return (
     <MuiAppBar className={className} variant="absolote">
       <MuiToolbar className="navbarRoot">
@@ -79,8 +81,12 @@ const NavigatorBar = (props: NavigatorBarPropsType) => {
         >
           <MuiMenuIcon />
         </MuiIconButton>
-        <MuiMenu
+        <Menu
           id="menu-appbar"
+          className="navbarMenuRoot"
+          classes={{
+            paper: 'navbarMenuPaper'
+          }}
           anchorEl={menuEl}
           anchorOrigin={{
             vertical: 'top',
@@ -98,7 +104,7 @@ const NavigatorBar = (props: NavigatorBarPropsType) => {
               {value.display}
             </MuiMenuItem>
           ))}
-        </MuiMenu>
+        </Menu>
       </MuiToolbar>
     </MuiAppBar>
   )
@@ -106,8 +112,16 @@ const NavigatorBar = (props: NavigatorBarPropsType) => {
 
 const RouteNavigatorBar = withRouter(NavigatorBar)
 
+const StyledMenu = styled(MuiMenu)`
+  & .navbarMenuPaper {
+    background: ${(props) => props.theme.palette.background.default} !important;
+  }
+`
+
 // $FlowFixMe
-export default styled(RouteNavigatorBar)`
+export default styled(RouteNavigatorBar).attrs({
+  menuComp: StyledMenu
+})`
   border-bottom: 1px #002966 solid;
   opacity: 0.9;
 

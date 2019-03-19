@@ -2,6 +2,7 @@ import React from 'react' // eslint-disable-line no-unused-vars
 import { createShallow } from '@material-ui/core/test-utils'
 
 import NavigatorBar from '../index'
+import withRoot from '../../../utils/withRoot'
 
 /** @test {NavigatorBar} */
 describe('<NavigatorBar />', () => {
@@ -13,6 +14,7 @@ describe('<NavigatorBar />', () => {
 
   /** @test {NavigatorBar} */
   it('should work', () => {
-    shallow(<NavigatorBar text="This is a text" />)
+    const App = withRoot(NavigatorBar)
+    shallow(<App />)
   })
 })
