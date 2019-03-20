@@ -63,6 +63,7 @@ const TravelBox = (props: TravelBoxPropsType) => {
         open={open}
         onClose={handleClose}
         title={`By ${props.name}`}
+        titleImage={props.image}
         text="Test"
       />
     </MuiCard>

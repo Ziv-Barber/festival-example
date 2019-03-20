@@ -5,12 +5,10 @@ import styled from 'styled-components'
 
 // Other components that we need:
 
-// Internationalization (i18n):
-// import { FormattedMessage } from 'react-intl'
-// import createMessages from './messages'
-
 // Material-ui stuff:
 import TextField from '@material-ui/core/TextField'
+
+import type TextFieldType from '@material-ui/core/TextField/TextField'
 
 // Our types:
 import type { TextInputPropsType } from './index.types'
@@ -20,7 +18,7 @@ import type { TextInputPropsType } from './index.types'
  * @reactProps {string} text Parameters for the component.
  * @return New element.
  */
-const TextInput = (props: TextInputPropsType) => (
+const TextInput = (props: TextFieldType & TextInputPropsType) => (
   <TextField {...props} variant="outlined" margin="normal" />
 )
 
