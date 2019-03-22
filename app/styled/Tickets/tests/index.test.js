@@ -1,15 +1,22 @@
+// @flow
+
 import React from 'react' // eslint-disable-line no-unused-vars
-import { shallow } from 'enzyme'
+import { render, cleanup } from 'react-testing-library'
 
 import Tickets from '../index'
+import withRoot from '../../../utils/withRoot'
+
+// For flow:
+let { describe, it, afterEach, expect } = global
 
 /** @test {Tickets} */
 describe('<Tickets />', () => {
+  afterEach(cleanup)
+
   /** @test {Tickets} */
-  it('should render a text prop', () => {
-    shallow(<Tickets name="bus" options={{}} />)
-    // const wrapper = shallow(<Tickets text="This is a text" />)
-    // const renderedText = wrapper.find('span')
-    // expect(renderedText.text()).toEqual('This is a text')
+  it('should render', () => {
+    const App = withRoot(Tickets)
+    const { container } = render(<App />)
+    expect(container).toMatchSnapshot()
   })
 })

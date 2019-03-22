@@ -1,23 +1,37 @@
+// @flow
+
 import React from 'react' // eslint-disable-line no-unused-vars
-import { shallow } from 'enzyme'
+import { render, cleanup } from 'react-testing-library'
+
 import withConditional from '../withConditional'
 
-const TestComponent = () => <div>Example component</div>
+// For flow:
+let { describe, it, afterEach, expect } = global
 
-describe('withConditional', () => {
-  it('should render the component only when the condition passes', () => {
-    const ConditionalComponent = withConditional(TestComponent)
+const TestComponent = () => <span>Example component</span>
 
-    const wrapper = shallow(<ConditionalComponent condition={true} />)
+/** @test {withConditional} */
+describe('<withConditional />', () => {
+  afterEach(cleanup)
 
-    expect(wrapper.html()).not.toBe(null)
+  /** @test {withConditional} */
+  it('should match snapshort', () => {
+    const App = withConditional(TestComponent)
+    const { container } = render(<App />)
+    expect(container).toMatchSnapshot()
   })
 
+  /** @test {withConditional} */
+  it('should render the component only when the condition passes', () => {
+    const App = withConditional(TestComponent)
+    const { getByText } = render(<App condition={true} />)
+    expect(getByText(/^Example component/)).not.toBeNull()
+  })
+
+  /** @test {withConditional} */
   it('should return null when the condition fails', () => {
-    const ConditionalComponent = withConditional(TestComponent)
-
-    const wrapper = shallow(<ConditionalComponent condition={false} />)
-
-    expect(wrapper.html()).toBe(null)
+    const App = withConditional(TestComponent)
+    const { queryByText } = render(<App condition={false} />)
+    expect(queryByText(/^Example component/)).toBeNull()
   })
 })

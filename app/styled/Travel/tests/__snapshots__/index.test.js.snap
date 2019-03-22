@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Travel /> should render 1`] = `
+<div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Travel-nizlnn-0 JnxXn"
+  >
+    <h3
+      class="MuiTypography-root-28 MuiTypography-h3-42 listHeader"
+    >
+      Travel
+    </h3>
+    <div
+      class="MuiGrid-container-64 MuiGrid-spacing-xs-8-86 MuiGrid-align-items-xs-center-72 MuiGrid-justify-xs-space-around-84 listGrid"
+    >
+      <div
+        class="MuiGrid-item-65 MuiGrid-grid-xs-12-104 MuiGrid-grid-sm-4-110 MuiGrid-grid-md-3-123 MuiGrid-grid-lg-2-136 MuiGrid-grid-xl-1-149 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-161 card"
+        >
+          <div
+            class="MuiCardContent-root-162 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              By 
+              bus
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-163 cardActions"
+          >
+            <div
+              class="MuiCardActions-action-165"
+            >
+              <img
+                class="cardImage"
+                src="IMAGE_MOCK"
+              />
+              <div
+                class="cardInfo"
+              >
+                <button
+                  class="MuiButtonBase-root-176 MuiFab-root-166 MuiFab-primary-168"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label-167"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-179"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-204"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-65 MuiGrid-grid-xs-12-104 MuiGrid-grid-sm-4-110 MuiGrid-grid-md-3-123 MuiGrid-grid-lg-2-136 MuiGrid-grid-xl-1-149 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-161 card"
+        >
+          <div
+            class="MuiCardContent-root-162 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              By 
+              train
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-163 cardActions"
+          >
+            <div
+              class="MuiCardActions-action-165"
+            >
+              <img
+                class="cardImage"
+                src="IMAGE_MOCK"
+              />
+              <div
+                class="cardInfo"
+              >
+                <button
+                  class="MuiButtonBase-root-176 MuiFab-root-166 MuiFab-primary-168"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label-167"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-179"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-204"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-65 MuiGrid-grid-xs-12-104 MuiGrid-grid-sm-4-110 MuiGrid-grid-md-3-123 MuiGrid-grid-lg-2-136 MuiGrid-grid-xl-1-149 listItem"
+      >
+        <div
+          class="MuiPaper-root-1 MuiPaper-elevation0-3 MuiCard-root-161 card"
+        >
+          <div
+            class="MuiCardContent-root-162 cardContent"
+          >
+            <h2
+              class="MuiTypography-root-28 MuiTypography-h6-45"
+            >
+              By 
+              plane
+            </h2>
+          </div>
+          <div
+            class="MuiCardActions-root-163 cardActions"
+          >
+            <div
+              class="MuiCardActions-action-165"
+            >
+              <img
+                class="cardImage"
+                src="IMAGE_MOCK"
+              />
+              <div
+                class="cardInfo"
+              >
+                <button
+                  class="MuiButtonBase-root-176 MuiFab-root-166 MuiFab-primary-168"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label-167"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-179"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-204"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

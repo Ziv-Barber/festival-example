@@ -1,5 +1,5 @@
 import React from 'react' // eslint-disable-line no-unused-vars
-import { shallow, mount } from 'enzyme'
+import { cleanup, render } from 'react-testing-library'
 import { FormattedMessage, defineMessages } from 'react-intl'
 import { Provider } from 'react-redux'
 import { browserHistory } from 'react-router-dom'
@@ -17,18 +17,23 @@ const messages = defineMessages({
   }
 })
 
+/** @test {LanguageProvider} */
 describe('<LanguageProvider />', () => {
+  afterEach(cleanup)
+
+  /** @test {LanguageProvider} */
   it('should render its children', () => {
     const children = <h1>Test</h1>
-    const renderedComponent = shallow(
+    const { container } = render(
       <LanguageProvider messages={messages} locale="en">
         {children}
       </LanguageProvider>
     )
-    expect(renderedComponent.contains(children)).toBe(true)
+    expect(container.firstChild).not.toBeNull()
   })
 })
 
+/** @test {ConnectedLanguageProvider} */
 describe('<ConnectedLanguageProvider />', () => {
   let store
 
@@ -36,16 +41,17 @@ describe('<ConnectedLanguageProvider />', () => {
     store = configureStore({}, browserHistory)
   })
 
+  afterEach(cleanup)
+
+  /** @test {ConnectedLanguageProvider} */
   it('should render the default language messages', () => {
-    const renderedComponent = mount(
+    const { queryByText } = render(
       <Provider store={store}>
         <ConnectedLanguageProvider messages={translationMessages}>
           <FormattedMessage {...messages.someMessage} />
         </ConnectedLanguageProvider>
       </Provider>
     )
-    expect(
-      renderedComponent.contains(<FormattedMessage {...messages.someMessage} />)
-    ).toBe(true)
+    expect(queryByText(messages.someMessage.defaultMessage)).not.toBeNull()
   })
 })

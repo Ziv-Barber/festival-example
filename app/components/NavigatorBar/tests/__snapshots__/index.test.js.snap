@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavigatorBar /> should render 1`] = `
+<div>
+  <header
+    class="MuiPaper-root-10 MuiPaper-elevation4-16 MuiAppBar-root-1 MuiAppBar-positionFixed-2 MuiAppBar-colorPrimary-8 mui-fixed NavigatorBar-sc-1dzex11-1 fFKGCF"
+    variant="absolote"
+  >
+    <div
+      class="MuiToolbar-root-37 MuiToolbar-regular-39 MuiToolbar-gutters-38 navbarRoot"
+    >
+      <div
+        class="navbarTitle"
+      >
+        <h6
+          class="MuiTypography-root-41 MuiTypography-h6-58 MuiTypography-colorInherit-70 MuiTypography-noWrap-67"
+        >
+          HeavenFest
+        </h6>
+      </div>
+      <button
+        class="MuiButtonBase-root-103 MuiButton-root-77 MuiButton-text-79 MuiButton-flat-82 navbarButton"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-78"
+        >
+          Lineup
+        </span>
+        <span
+          class="MuiTouchRipple-root-125"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root-103 MuiButton-root-77 MuiButton-text-79 MuiButton-flat-82 navbarButton"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-78"
+        >
+          Tickets
+        </span>
+        <span
+          class="MuiTouchRipple-root-125"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root-103 MuiButton-root-77 MuiButton-text-79 MuiButton-flat-82 navbarButton"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-78"
+        >
+          Travel
+        </span>
+        <span
+          class="MuiTouchRipple-root-125"
+        />
+      </button>
+      <button
+        aria-haspopup="true"
+        class="MuiButtonBase-root-103 MuiIconButton-root-106 MuiIconButton-colorInherit-107 navbarMenu"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label-111"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-112"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root-125"
+        />
+      </button>
+    </div>
+  </header>
+</div>
+`;

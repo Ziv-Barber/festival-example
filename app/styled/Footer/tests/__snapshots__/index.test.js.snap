@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render 1`] = `
+<div>
+  <div
+    class="MuiPaper-root-1 MuiPaper-elevation0-3 Footer-sc-15rsv6x-0 kQiiTI"
+  >
+    <div
+      class="MuiGrid-container-28 MuiGrid-spacing-xs-8-50 MuiGrid-align-items-xs-center-36 MuiGrid-justify-xs-center-45 listGrid"
+    >
+      <div
+        class="MuiGrid-item-29 MuiGrid-grid-xs-2-58 MuiGrid-grid-sm-2-72 MuiGrid-grid-md-2-86 MuiGrid-grid-lg-1-99 MuiGrid-grid-xl-1-113 listItem"
+      >
+        <a
+          class="link"
+          href="/newsletter"
+        >
+          <button
+            class="MuiButtonBase-root-151 MuiButton-root-125 MuiButton-text-127 MuiButton-flat-130"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-126"
+            >
+              Newsletter
+            </span>
+            <span
+              class="MuiTouchRipple-root-154"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-29 MuiGrid-grid-xs-2-58 MuiGrid-grid-sm-2-72 MuiGrid-grid-md-2-86 MuiGrid-grid-lg-1-99 MuiGrid-grid-xl-1-113 listItem"
+      >
+        <a
+          class="link"
+          href="/press"
+        >
+          <button
+            class="MuiButtonBase-root-151 MuiButton-root-125 MuiButton-text-127 MuiButton-flat-130"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-126"
+            >
+              Press
+            </span>
+            <span
+              class="MuiTouchRipple-root-154"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-29 MuiGrid-grid-xs-2-58 MuiGrid-grid-sm-2-72 MuiGrid-grid-md-2-86 MuiGrid-grid-lg-1-99 MuiGrid-grid-xl-1-113 listItem"
+      >
+        <a
+          class="link"
+          href="/privacy"
+        >
+          <button
+            class="MuiButtonBase-root-151 MuiButton-root-125 MuiButton-text-127 MuiButton-flat-130"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-126"
+            >
+              Privacy
+            </span>
+            <span
+              class="MuiTouchRipple-root-154"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-item-29 MuiGrid-grid-xs-2-58 MuiGrid-grid-sm-2-72 MuiGrid-grid-md-2-86 MuiGrid-grid-lg-1-99 MuiGrid-grid-xl-1-113 listItem"
+      >
+        <a
+          class="link"
+          href="/contact"
+        >
+          <button
+            class="MuiButtonBase-root-151 MuiButton-root-125 MuiButton-text-127 MuiButton-flat-130"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-126"
+            >
+              Contact
+            </span>
+            <span
+              class="MuiTouchRipple-root-154"
+            />
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
