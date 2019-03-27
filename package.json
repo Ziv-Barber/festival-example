@@ -43,7 +43,7 @@
     "test:clean": "rimraf ./coverage",
 	"test": "npm run test:only && npx jest-coverage-badges",
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
-    "test:only": "cross-env NODE_ENV=test jest --coverage --collectCoverageFrom=app/**/*.js* --collectCoverageFrom=!app/**/*.stories.js --collectCoverageFrom=!app/**/*.snap --collectCoverageFrom=!app/**/*.types.js --collectCoverageFrom=!app/translations/** --collectCoverageFrom=!app/containers/**/Loadable.js --collectCoverageFrom=!app/app.js --collectCoverageFrom=!app/containers/App/constants.js --collectCoverageFrom=!app/utils/scrollTo.js",
+    "test:only": "cross-env NODE_ENV=test jest --coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "prettify": "prettier --write",
     "prettify:all": "prettier --write \"{app,server,internals}/**/*.{jsx,js}\"",

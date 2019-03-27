@@ -6,7 +6,13 @@ module.exports = {
     '!app/*/RbGenerated*/*.{js,jsx}',
     '!app/app.js',
     '!app/global-styles.js',
-    '!app/*/*/Loadable.{js,jsx}'
+    '!app/**/*/Loadable.{js,jsx}',
+    '!app/**/*.stories.js',
+    '!app/**/*.snap',
+    '!app/**/*.types.js',
+    '!app/translations/**',
+    '!app/containers/App/constants.js',
+    '!app/utils/scrollTo.js'
   ],
   coverageThreshold: {
     global: {
