@@ -3,9 +3,9 @@
 A demo fullstack app that you can use as a template for building a site for a festival.
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![coverage statements](./badges/badge-statements.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
-[![coverage lines](./badges/badge-lines.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
-[![coverage functions](./badges/badge-functions.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
+[![coverage statements](./coverage/badge-statements.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
+[![coverage lines](./coverage/badge-lines.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
+[![coverage functions](./coverage/badge-functions.svg)](https://github.com/pamepeixinho/jest-coverage-badges)
 [![dependencies](https://david-dm.org/Ziv-Barber/festival-example.svg?style&#x3D;flat-square)](https://david-dm.org/Ziv-Barber/festival-example)
 [![devDependencies](https://david-dm.org/Ziv-Barber/festival-example/dev-status.svg?style&#x3D;flat-square)](https://david-dm.org/Ziv-Barber/festival-example#info&#x3D;devDependencies)
 [![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style&#x3D;flat-square)](https://github.com/prettier/prettier)

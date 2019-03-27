@@ -1,9 +1,12 @@
 # Don't check auto-generated stuff into git
-coverage
+coverage/lcov-report
+coverage/coverage-summary.json
+coverage/lcov.info
 build
 node_modules
 stats.json
 docs_api
+storybook-static
 
 # Cruft
 .DS_Store
